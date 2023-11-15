@@ -85,8 +85,38 @@ const Header = () => {
 				<div className='container-xxl'>
 					<div className='row'>
 						<div className='col-12'>
-							<div className='menu-bottom d-flex align-items-center'>
-								<div></div>
+							<div className='menu-bottom d-flex align-items-center gap-15'>
+								<div>
+									<div class='dropdown'>
+										<button
+											class='btn btn-secondary dropdown-toggle bg-transparent border-0'
+											type='button'
+											id='dropdownMenuButton1'
+											data-bs-toggle='dropdown'
+											aria-expanded='false'
+										>
+											<img src='images/menu.svg' alt='' />
+											<span>SHOP CATEGORS</span>
+										</button>
+										<ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'>
+											<li>
+												<a class='dropdown-item' href='#'>
+													Action
+												</a>
+											</li>
+											<li>
+												<a class='dropdown-item' href='#'>
+													Another action
+												</a>
+											</li>
+											<li>
+												<a class='dropdown-item' href='#'>
+													Something else here
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
 								<div className='menu-links'>
 									<div className='d-flex align-items-center gap-15'>
 										<NavLink to='/'>Home</NavLink>
