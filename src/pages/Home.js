@@ -74,7 +74,112 @@ const Home = () => {
 			<section className='home-wrapper-2 py-5'>
 				<div className='container-xxl'>
 					<div className='row'>
-						<div className='col-12'></div>
+						<div className='col-12'>
+							<div className='servies d-flex align-items-center justify-content-between'>
+								<div className='d-flex align-items-center gap-15'>
+									<img src='images/service.png' alt='wrapper2' />
+									<div>
+										<h6>Free Shipping</h6>
+										<p className='mb-0 text-'>From all orders over $5</p>
+									</div>
+								</div>
+								<div className='d-flex align-items-center gap-15'>
+									<img src='images/service-02.png' alt='wrapper2' />
+									<div>
+										<h6>Daily Surprise Offers</h6>
+										<p className='mb-0 text-'>Save up to 25% off</p>
+									</div>
+								</div>
+								<div className='d-flex align-items-center gap-15'>
+									<img src='images/service-03.png' alt='wrapper2' />
+									<div>
+										<h6>Support 24/7</h6>
+										<p className='mb-0 text-'>Shop with an expert</p>
+									</div>
+								</div>
+								<div className='d-flex align-items-center gap-15'>
+									<img src='images/service-04.png' alt='wrapper2' />
+									<div>
+										<h6>Affordable Prices</h6>
+										<p className='mb-0 text-'>Get Factory direct price</p>
+									</div>
+								</div>
+								<div className='d-flex align-items-center gap-15'>
+									<img src='images/service-05.png' alt='wrapper2' />
+									<div>
+										<h6>Secure Payments</h6>
+										<p className='mb-0 text-'>100% Producted Payments</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section className='home-wrapper-2 py-5'>
+				<div className='container-xxl'>
+					<div className='row'>
+						<div className='col-12'>
+							<div className='categories d-flex flex-wrap justify-content-betweenalign-items-center'>
+								<div className='d-flex gap-10 align-items-center'>
+									<div>
+										<h6>Computers & Laptop</h6>
+										<p>8 Items</p>
+									</div>
+									<img src='images/laptop.jpg' alt='camera' />
+								</div>
+								<div className='d-flex gap-10 align-items-center'>
+									<div>
+										<h6>Camera & Videos</h6>
+										<p>12 Items</p>
+									</div>
+									<img src='images/camera.jpg' alt='camera' />
+								</div>
+								<div className='d-flex gap-10 align-items-center'>
+									<div>
+										<h6>Smart Televizor</h6>
+										<p>15 Items</p>
+									</div>
+									<img src='images/tv.jpg' alt='camera' />
+								</div>
+								<div className='d-flex gap-10 align-items-center'>
+									<div>
+										<h6>Smart Watch</h6>
+										<p>5 Items</p>
+									</div>
+									<img src='images/martwatch.jpg' alt='camera' />
+								</div>
+								<div className='d-flex gap-10 align-items-center'>
+									<div>
+										<h6>Headphone & AirPods</h6>
+										<p>8 Items</p>
+									</div>
+									<img src='images/headphone.jpg' alt='camera' />
+								</div>
+								<div className='d-flex gap-10 align-items-center'>
+									<div>
+										<h6>Headphone & Touch</h6>
+										<p>12 Items</p>
+									</div>
+									<img src='images/speaker.jpg' alt='camera' />
+								</div>
+								<div className='d-flex gap-10 align-items-center'>
+									<div>
+										<h6>Home & Heater</h6>
+										<p>15 Items</p>
+									</div>
+									<img src='images/homeapp.jpg' alt='camera' />
+								</div>
+
+								<div className='d-flex gap-10 align-items-center'>
+									<div>
+										<h6>Music & Gaming</h6>
+										<p>9 Items</p>
+									</div>
+									<img src='images/DualSense.jpg' alt='camera' />
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
