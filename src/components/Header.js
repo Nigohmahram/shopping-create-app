@@ -1,6 +1,12 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { BsSearch } from 'react-icons/bs';
+import { GiLargeDress } from 'react-icons/gi';
+import { TbPerfume } from 'react-icons/tb';
+import { GiFruitBowl } from 'react-icons/gi';
+import { FaKitchenSet } from 'react-icons/fa6';
+import { FaPlaneDeparture } from 'react-icons/fa';
+import { FaShopify } from 'react-icons/fa6';
 
 const Header = () => {
 	return (
@@ -89,30 +95,45 @@ const Header = () => {
 								<div>
 									<div class='dropdown'>
 										<button
-											class='btn btn-secondary dropdown-toggle bg-transparent border-0'
+											class='btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center'
 											type='button'
 											id='dropdownMenuButton1'
 											data-bs-toggle='dropdown'
 											aria-expanded='false'
 										>
-											<img src='images/menu.svg' alt='' />
-											<span>SHOP CATEGORS</span>
+											<img src='images/menu.svg	' alt='' />
+											<span className='me-0 inline-block'>SHOP CATEGORS</span>
 										</button>
 										<ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'>
 											<li>
-												<a class='dropdown-item' href='#'>
-													Action
-												</a>
+												<Link className='dropdown-item' to='#'>
+													<GiLargeDress className='shop' /> Dress
+												</Link>
 											</li>
 											<li>
-												<a class='dropdown-item' href='#'>
-													Another action
-												</a>
+												<Link className='dropdown-item' to='#'>
+													<TbPerfume className='shop' /> Perfume
+												</Link>
 											</li>
 											<li>
-												<a class='dropdown-item' href='#'>
-													Something else here
-												</a>
+												<Link className='dropdown-item' to='#'>
+													<GiFruitBowl className='shop' /> Fruit
+												</Link>
+											</li>
+											<li>
+												<Link className='dropdown-item' to='#'>
+													<FaKitchenSet className='shop' /> Kitchen
+												</Link>
+											</li>
+											<li>
+												<Link className='dropdown-item' to='#'>
+													<FaPlaneDeparture className='shop' /> Travel
+												</Link>
+											</li>
+											<li>
+												<Link className='dropdown-item' to='#'>
+													<FaShopify className='shop' /> Abjective
+												</Link>
 											</li>
 										</ul>
 									</div>
