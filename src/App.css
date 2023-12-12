@@ -278,7 +278,7 @@ footer .input-group-text {
 	background-color: white;
 	border-radius: 10px;
 	overflow: hidden;
-	transition: 0.8s ease;
+	transition: 0.5s ease !important;
 
 	.product-details h6 {
 		color: var(--color-bf4800);
@@ -287,10 +287,13 @@ footer .input-group-text {
 	.product-details h5 {
 		font-size: 15px;
 		color: var(--color-77);
+		font-weight: 600;
 	}
 	.product-details p.price {
-		font-size: 16px;
-		color: var(--color-77);
+		font-size: 17px;
+		color: #bf4800;
+		font-weight: bold;
+		margin-bottom: 5px;
 	}
 	.action-bar {
 		top: 10%;
@@ -298,20 +301,66 @@ footer .input-group-text {
 		transition: 0.3s ease;
 	}
 }
+.product-card:hover {
+	box-shadow: 1px 0 10px #0000001a;
+	transform: translateY(-10px);
+}
+.product-image {
+	transition: 0.5s ease-in !important;
+}
+
+.product-card .product-image > img:last-child {
+	display: none;
+	transition: 0.5s ease-in;
+}
 .product-card:hover .product-image > img:nth-child(1) {
 	display: none;
+	transition: 0.5s ease-in;
 }
 .product-card:hover .product-image > img:last-child {
 	display: block;
-}
-.product-card .product-image > img:last-child {
-	display: none;
+	transition: 0.5s ease-in;
 }
 .product-card:hover .action-bar {
 	right: 20px;
+	transition: 0.5s ease-in;
 }
 .wishlist-icon {
 	top: 4%;
 	right: 22px;
+}
+.item {
+	margin: 0;
+	padding: 0;
+	font-size: 13px !important;
+	color: #bf4800 !important;
+}
+.parach {
+	margin: 0;
+	font-size: 12px !important;
+	font-weight: 400;
+	color: black !important;
+}
+.parach .parach1 {
+	text-decoration: line-through;
+	color: rgba(0, 0, 0, 0.614);
+}
+.skidka {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	line-height: 0;
+	width: 56%;
+	padding: 2px;
+	border: 1px solid rgba(0, 0, 0, 0.447);
+	border-radius: 40px;
+	.skidk {
+		font-size: 17px;
+		margin-right: 5px;
+	}
+	.skid {
+		font-size: 13px;
+		font-weight: 300;
+	}
 }
 /* Product Card End Here */

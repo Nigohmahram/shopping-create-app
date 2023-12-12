@@ -6,6 +6,9 @@ import BlogCard2 from '../components/BlogCard2';
 import BlogCard3 from '../components/BlogCard3';
 import BlogCard4 from '../components/BlogCard4';
 import ProductCard from '../components/ProductCard';
+import ProductCard1 from '../components/ProductCard1';
+import ProductCard2 from '../components/ProductCard2';
+import ProductCard3 from '../components/ProductCard3';
 
 const Home = () => {
 	return (
@@ -188,6 +191,19 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
+			<section className='blog-wrapper py-5 home-wrapper-2'>
+				<div className='container-xxl'>
+					<div className='row'>
+						<div className='col-12'>
+							<h3 className='section-heading'>Featured Collection</h3>
+						</div>
+						<ProductCard />
+						<ProductCard1 />
+						<ProductCard2 />
+						<ProductCard3 />
+					</div>
+				</div>
+			</section>
 			<section className='marque-wrapper py-5'>
 				<div className='container-fluid'>
 					<div className='row'>
@@ -224,19 +240,7 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			<section className='blog-wrapper py-5 home-wrapper-2'>
-				<div className='container-xxl'>
-					<div className='row'>
-						<div className='col-12'>
-							<h3 className='section-heading'>Featured Collection</h3>
-						</div>
-						<ProductCard />
-						<ProductCard />
-						<ProductCard />
-						<ProductCard />
-					</div>
-				</div>
-			</section>
+
 			<section className='blog-wrapper py-5 home-wrapper-2'>
 				<div className='container-xxl'>
 					<div className='row'>

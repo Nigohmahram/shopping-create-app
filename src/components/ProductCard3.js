@@ -3,7 +3,7 @@ import ReactStars from 'react-rating-stars-component';
 import { Link } from 'react-router-dom';
 import { FcSalesPerformance } from 'react-icons/fc';
 
-const ProductCard = () => {
+const ProductCard3 = () => {
 	return (
 		<div className='col-3'>
 			<div className='product-card position-relative'>
@@ -13,21 +13,21 @@ const ProductCard = () => {
 					</Link>
 				</div>
 				<div className='product-image'>
-					<img src='images/watch.jpg' alt='productimage' />
-					<img src='images/watch1.jpg' alt='productimage' />
+					<img src='images/phone1.jpg' alt='productimage' />
+					<img src='images/phone2.jpg' alt='productimage' />
 				</div>
 				<div className='product-details'>
-					<h6 className='brand'>Apple Watch</h6>
-					<h5 className='product-title'>Apple 애플워치 9 GPS, 41mm, 미드나이트 / 미드나이트 스포츠 루프, Regular</h5>
+					<h6 className='brand'>Apple Iphone</h6>
+					<h5 className='product-title'>Apple 정품 아이폰 15 Pro Max 자급제, 블루티타늄, 256GB</h5>
 					<p className='parach'>
-						7% <span className='parach1'>639,000</span>
+						12% <span className='parach1'>2,100,000</span>
 					</p>
-					<p className='price'>588,000원</p>
-					<p className='item'>내일(수) 도착 보장 </p>
-					<ReactStars count={5} size={24} value={3} edit={false} activeColor='#ffd700' />
+					<p className='price'>1,900,000원</p>
+					<p className='item'>내일(수) 12/13 새벽 7시 전 도착 보장</p>
+					<ReactStars count={5} size={24} value={5} edit={false} activeColor='#ffd700' />
 					<h4 className='skidka'>
 						<FcSalesPerformance className='skidk' />
-						<span className='skid'>최대 29,400원 적립</span>
+						<span className='skid'>최대 15,640원 적립</span>
 					</h4>
 				</div>
 				<div className='action-bar position-absolute'>
@@ -48,4 +48,4 @@ const ProductCard = () => {
 	);
 };
 
-export default ProductCard;
+export default ProductCard3;
