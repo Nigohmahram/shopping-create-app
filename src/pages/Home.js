@@ -9,6 +9,7 @@ import ProductCard from '../components/ProductCard';
 import ProductCard1 from '../components/ProductCard1';
 import ProductCard2 from '../components/ProductCard2';
 import ProductCard3 from '../components/ProductCard3';
+import SpecialProduct from '../components/SpecialProduct';
 
 const Home = () => {
 	return (
@@ -191,11 +192,69 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			<section className='blog-wrapper py-5 home-wrapper-2'>
+			<section className='featured-wrapper py-5 home-wrapper-2'>
 				<div className='container-xxl'>
 					<div className='row'>
 						<div className='col-12'>
 							<h3 className='section-heading'>Featured Collection</h3>
+						</div>
+						<ProductCard />
+						<ProductCard1 />
+						<ProductCard2 />
+						<ProductCard3 />
+						<ProductCard3 />
+						<ProductCard3 />
+						<ProductCard3 />
+						<ProductCard3 />
+					</div>
+				</div>
+			</section>
+			<section className='famous-wrapper py-5 home-wrapper-2'>
+				<div className='container-xxl'>
+					<div className='row'>
+						<div className='col-3'>
+							<div className='famous-card position-relative'>
+								<img src='images/watchserius.jpg' alt='famous' />
+								<div className='famous-content position-absolute'>
+									<h5>Big Screen</h5>
+									<h6>Smart Watch Series 7</h6>
+									<p>From $339or $16.62/mo. for 24 mo.*</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section className='special-wrapper py-5 home-wrapper-2'>
+				<div className='container-xxl'>
+					<div className='row'>
+						<div className='col-12'>
+							<h3 className='section-heading'>Special Product</h3>
+						</div>
+					</div>
+					<div className='row '>
+						<SpecialProduct />
+						<SpecialProduct />
+						<SpecialProduct />
+						<SpecialProduct />
+						<SpecialProduct />
+						<SpecialProduct />
+					</div>
+				</div>
+			</section>
+			<section className='popular-wrapper py-5 home-wrapper-2'>
+				<div className='container-xxl'>
+					<div className='row'>
+						<div className='col-12'>
+							<h3 className='section-heading'>Our Popular Pr</h3>
+						</div>
+					</div>
+					<div className='row'>
+						<div className='col-2'>
+							<div className='card'></div>
+						</div>
+						<div className='col-2'>
+							<div className='card'></div>
 						</div>
 						<ProductCard />
 						<ProductCard1 />

@@ -74,6 +74,9 @@ a {
 .gap-10 {
 	gap: 10px;
 }
+.gap-5 {
+	gap: 5px;
+}
 
 .gap-15 {
 	gap: 15px;
@@ -364,3 +367,21 @@ footer .input-group-text {
 	}
 }
 /* Product Card End Here */
+
+/* Special Product Card  */
+.special-product-card {
+	padding: 20px 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+.badge {
+	background-color: #fc353cef !important;
+}
+.progress-bar {
+	background-color: #fc353c !important;
+} /* Special Product Card End Here */
+
+.famous-card .famous-content {
+	top: 20%;
+	left: 10%;
+}

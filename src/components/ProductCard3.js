@@ -6,7 +6,7 @@ import { FcSalesPerformance } from 'react-icons/fc';
 const ProductCard3 = () => {
 	return (
 		<div className='col-3'>
-			<div className='product-card position-relative'>
+			<Link className='product-card position-relative'>
 				<div className='wishlist-icon position-absolute'>
 					<Link>
 						<img src='images/wish.svg' alt='wish' />
@@ -43,7 +43,7 @@ const ProductCard3 = () => {
 						</Link>
 					</div>
 				</div>
-			</div>
+			</Link>
 		</div>
 	);
 };
