@@ -28,4 +28,6 @@ Technologies used in the project:
 - CSS
 - JavaScript
 - React
-- 
+- MongoDB
+- Express JS
+- Node Js
